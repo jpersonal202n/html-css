@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Añadido para eliminar el margen predeterminado del body */
+}
+
+.container {
+    width: 400px; /* Ancho deseado del contenedor rojo */
+    height: 400px; /* Altura deseada del contenedor rojo */
+    background-color: #DC2B25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #3946DC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #569C5B;
+    border: 5px solid white;
+    border-radius: 50%;
+}
